@@ -17,6 +17,7 @@ namespace ElasticSearch.API
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
+            builder.Services.AddScoped<ECommerceRepository>();
             builder.Services.AddScoped<ProductRepository>();
             builder.Services.AddScoped<ProductService>();
 

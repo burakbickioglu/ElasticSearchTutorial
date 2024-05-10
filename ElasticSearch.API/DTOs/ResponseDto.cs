@@ -1,5 +1,4 @@
-﻿using Nest;
-using System.Net;
+﻿using System.Net;
 
 namespace ElasticSearch.API.DTOs
 {

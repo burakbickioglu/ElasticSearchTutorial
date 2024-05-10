@@ -2,7 +2,6 @@
 using ElasticSearch.API.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Nest;
 using System.Net;
 
 namespace ElasticSearch.API.Controllers
